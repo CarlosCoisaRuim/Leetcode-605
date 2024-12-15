@@ -1,7 +1,7 @@
 # Leetcode-605
 Code solving exercise 605 from Leetcode, "Can Place Flowers".
 
-##Informações 
+## Informações 
 **Nome**: Carlos Henrique Carvalho;
 
 **Problema**: A proposta do exercício 605 é que nós temos um canteiro de flores representado por um array, onde 0's representam potes livres e 1's representam potes ocupados. O exercício então pede para determinarmos se, dado um array e um número n de flores, é possível realizar o plantio dessas flores de modo que não hajam flores adjacentes. 
