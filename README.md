@@ -8,3 +8,4 @@ Code solving exercise 605 from Leetcode, "Can Place Flowers".
 
 **Solução**: Para resolver esse problema, é necessário percorrer o array checando os potes antecedentes e sucessores para confirmar se o espaço é propício para o plantio. Existem N maneiras de desenvolver esse algoritmo, porém eu optei por um sistema de pontos, onde cada pote vago vale um ponto (potes vagos nas extremidades valem dois pontos) e a cada checagem onde existam 3 ou mais pontos, esses pontos são consumidos e é feito um plantio. Caso o número atual da array represente um pote ocupado, os pontos são zerados. 
 
+**Desempenho**: O código é 100% funcional, sendo aprovado pelo Leetcode. Tem espaço para ser otimizado ainda, mas em todos os casos testados ele exerceu o seu papel. Exemplos de testes bem sucedidos: [0], [1], [0,1,0,1,0,0,1,0,0].
